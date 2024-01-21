@@ -1,0 +1,82 @@
+audio{
+    width: 0px;
+    height: 0px;
+}
+
+table{
+    width: 100%;
+    border-spacing: 5em;
+}
+
+table,td,th,tr{
+    border: none;
+    border-collapse: collapse;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+a:active{
+    color: gray;
+    text-decoration: none;
+}
+
+.material a,.material a:active,.material a:hover,.material a:visited{
+    text-decoration: none;
+    color: rgb(0, 112, 224);
+}
+
+ul.material{
+    padding-left: 0px;
+}
+
+img{
+    transition-duration: 0.4s;
+}
+
+img:hover{
+    border-radius: 20px;
+    box-shadow: 5px 5px 7px black;
+}
+
+.search-bar {
+    background-color:	rgb(233, 233, 233);
+    margin-right: 0px;
+}
+
+.search-bar input[type=text] {
+    margin-left: 8px;
+    margin-bottom: 7px;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.search-bar input[type=text] {
+    border: 1px solid rgb(204, 204, 204);
+}
+
+
+div.right-search-bar{
+    background-color:	rgb(233, 233, 233);
+    width: 20px;
+    height: 700px;
+    margin-top: 0px;
+    padding:10px;
+}
+
